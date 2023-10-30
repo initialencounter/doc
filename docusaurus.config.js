@@ -9,7 +9,7 @@ const config = {
   title: '航海日志',
   tagline: 'A docs website of Initialencounter',
   url: 'https://initialencounter.github.io',
-  baseUrl: '/docu/',
+  baseUrl: '/doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'warn',
@@ -82,7 +82,7 @@ const config = {
           {to: '/docs/tutorial/SUMMARY', label: '教程', position: 'left'},
           {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/initialencounter/docu',
+            href: 'https://github.com/initialencounter/doc',
             label: 'GitHub',
             position: 'right',
           }
