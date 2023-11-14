@@ -25,6 +25,7 @@ sidebar_position: 2
   * [clock](./KoishiPlugins/Manager/clock.md)
   * [loader](./KoishiPlugins/Manager/loader.md)
   * [blacklist](./KoishiPlugins/Manager/blacklist.md)
+  * [help-pro](./KoishiPlugins/Manager/help-pro.md)
 * 行为预设
   * [specialtile](./KoishiPlugins/Behavior/specialtile.md)
 * 资讯服务
