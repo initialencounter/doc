@@ -19,6 +19,7 @@ sidebar_position: 2
   * [autoxjs-sender](./KoishiPlugins/Adapter/autoxjs-sender.md)
 * 拓展功能
   * [mqtt](./KoishiPlugins/Extension/mqtt.md)
+  * [jimp](./KoishiPlugins/Extension/jimp.md)
 * 控制台
   * [blockly-registry](./KoishiPlugins/Console/blockly-registry.md)
 * 管理工具
