@@ -10,27 +10,18 @@ title: 数字华容道
 
 在QQ群里面玩华容
 
+原游戏: [扫雷联萌](http://tapsss.com)
+
 ## 指令
 
 |描述|示例|
 |----|----|
-|开始puzzle|pz -m 4|
+|开始puzzle|pz 4|
 |加入puzzle|pz.join|
 |退出puzzle|pz.quit|
 |自定应puzzle|pz.def + puzzle导出数据|
 |puzzle排行榜|pz.rank|
 
-## 安装方法
-
-`npm i koishi-plugin-puzzle`
-
-## 效果展示
-
-* ![数字华容道](../../assets/KoishiPlugins/puzzle1.png)
-
-* ![自定义华容道](../../assets/KoishiPlugins/puzzle2.png)
-
-* ![排行榜](../../assets/KoishiPlugins/puzzle3.png)
 
 
 ## 更新日志
