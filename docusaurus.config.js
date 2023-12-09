@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '航海日志',
   tagline: 'A docs website of Initialencounter',
-  url: 'https://initialencounter.github.io',
-  baseUrl: '/doc/',
+  url: 'https://doc.initencunter.com',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'warn',
