@@ -1,6 +1,6 @@
 # Bert-VITS2
 # 启动容器
-docker run --name vits --shm-size=12g -it -d -p 3389:7860 --gpus all initialencounter/bert-vits:latest-lite
+docker run --name vits --shm-size=2g -it -d -p 3389:7860 --gpus all initialencounter/bert-vits:latest
 
 # 启动webui
 登录ssh
