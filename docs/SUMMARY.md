@@ -66,6 +66,7 @@ sidebar_position: 2
 * [Text-gen-webui](./DockerImages/text-gen-webui.md)
 * [Openai-whisper](./DockerImages/openai-whisper-api.md)
 * [Koishi-wechaty-Bot](./DockerImages/wechaty.md)
+* [Bert-vits2](./DockerImages/bert-vits2.md)
 
 ## 教程
 * [tutorial](./tutorial/SUMMARY.md)
