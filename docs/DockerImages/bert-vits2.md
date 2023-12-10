@@ -5,8 +5,11 @@ docker run --name vits --shm-size=12g -it -d -p 3389:7860 --gpus all initialenco
 # 启动webui
 登录ssh
 输入命令
+
+```shell
 cd workspace/app
-python3 mannager210.py -p 7860
+python3 manager210.py -p 7860
+```
 
 # 创建实验文件夹和加载全局配置
 
@@ -15,10 +18,10 @@ python3 mannager210.py -p 7860
 
 ## 上传待训练的音频数据到
 
-/workspace/app/Data/实验名/custom_character_voice
+`/app/Data/实验名/custom_character_voice`
 音频按说话人单独放在一个文件夹
 
-演示以/workspace/app/peila这个音频为例
+演示以/app/peila这个音频为例
 
 ## 加载全局配置
 ![Alt text](../assets/bert-vits2/image-1.png)
