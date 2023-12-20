@@ -17,6 +17,7 @@ sidebar_position: 2
   * [go-cqhttp-dev](./KoishiPlugins/Adapter/gocqhttp-dev.md)
   * [qsign](./KoishiPlugins/Adapter/qsign.md)
   * [autoxjs-sender](./KoishiPlugins/Adapter/autoxjs-sender.md)
+  * [wechat4u](./KoishiPlugins/Adapter/wechat4u.md)
 * 拓展功能
   * [mqtt](./KoishiPlugins/Extension/mqtt.md)
   * [jimp](./KoishiPlugins/Extension/jimp.md)
