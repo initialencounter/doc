@@ -68,7 +68,7 @@ sidebar_position: 2
 * [Openai-whisper](./DockerImages/openai-whisper-api.md)
 * [Koishi-wechaty-Bot](./DockerImages/wechaty.md)
 * [Bert-vits2](./DockerImages/bert-vits2.md)
-
+* [ComfyUI](./DockerImages/ComfyUI.md)
 ## 教程
 * [tutorial](./tutorial/SUMMARY.md)
 
