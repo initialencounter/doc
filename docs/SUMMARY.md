@@ -67,6 +67,7 @@ sidebar_position: 2
 * [Koishi-wechaty-Bot](./DockerImages/wechaty.md)
 * [Bert-vits2](./DockerImages/bert-vits2.md)
 * [ComfyUI](./DockerImages/ComfyUI.md)
+* [cuda12](./DockerImages/cuda12.md)
 ## 教程
 * [tutorial](./tutorial/SUMMARY.md)
 
