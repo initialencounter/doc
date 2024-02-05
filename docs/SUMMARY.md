@@ -14,8 +14,6 @@ sidebar_position: 2
   * [arcadia](./KoishiPlugins/AI/arcadia.md)
   * [artwise](./KoishiPlugins/AI/arcadia.md)
 * 适配器
-  * [go-cqhttp-dev](./KoishiPlugins/Adapter/gocqhttp-dev.md)
-  * [qsign](./KoishiPlugins/Adapter/qsign.md)
   * [autoxjs-sender](./KoishiPlugins/Adapter/autoxjs-sender.md)
   * [wechat4u](./KoishiPlugins/Adapter/wechat4u.md)
 * 拓展功能
