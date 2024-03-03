@@ -14,30 +14,22 @@ sidebar_position: 2
   * [arcadia](./KoishiPlugins/AI/arcadia.md)
   * [artwise](./KoishiPlugins/AI/arcadia.md)
 * 适配器
-  * [go-cqhttp-dev](./KoishiPlugins/Adapter/gocqhttp-dev.md)
-  * [qsign](./KoishiPlugins/Adapter/qsign.md)
   * [autoxjs-sender](./KoishiPlugins/Adapter/autoxjs-sender.md)
   * [wechat4u](./KoishiPlugins/Adapter/wechat4u.md)
 * 拓展功能
   * [mqtt](./KoishiPlugins/Extension/mqtt.md)
   * [jimp](./KoishiPlugins/Extension/jimp.md)
-* 控制台
-  * [blockly-registry](./KoishiPlugins/Console/blockly-registry.md)
 * 管理工具
   * [clock](./KoishiPlugins/Manager/clock.md)
-  * [loader](./KoishiPlugins/Manager/loader.md)
-  * [blacklist](./KoishiPlugins/Manager/blacklist.md)
   * [help-pro](./KoishiPlugins/Manager/help-pro.md)
 * 行为预设
   * [specialtile](./KoishiPlugins/Behavior/specialtile.md)
 * 资讯服务
   * [兽云祭](./KoishiPlugins/News/furbot.md)
-  * [fraud-db](./KoishiPlugins/News/fraud-db.md)
   * [瓷砖提醒](./KoishiPlugins/News/gh-tile.md)
 * 实用工具
   * [paddlespeech](./KoishiPlugins/Tool/paddlespeech.md)
   * [whisper-asr](./KoishiPlugins/Tool/whisper-asr.md)
-  * [paddlespeech-finetune](./KoishiPlugins/Tool/paddlespeech-finetune.md)
   * [baidu-tts](./KoishiPlugins/Tool/baidu-tts.md)
   * [baidu-sst](./KoishiPlugins/Tool/baidu-sst.md)
   * [ts-sst](./KoishiPlugins/Tool/tc-sst.md)
