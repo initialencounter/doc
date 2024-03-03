@@ -69,6 +69,7 @@ sidebar_position: 2
 * [Koishi-wechaty-Bot](./DockerImages/wechaty.md)
 * [Bert-vits2](./DockerImages/bert-vits2.md)
 * [ComfyUI](./DockerImages/ComfyUI.md)
+* [LLOneBot](./DockerImages/LLOneBot)
 ## 教程
 * [tutorial](./tutorial/SUMMARY.md)
 
