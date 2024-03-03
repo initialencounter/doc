@@ -41,6 +41,7 @@ sidebar_position: 2
   * [cube](./KoishiPlugins/Recreation/cube.md)
   * [couplet](./KoishiPlugins/Recreation/couplet.md)
   * [扫雷残局](./KoishiPlugins/Recreation/minesweeper-ending.md)
+  * [国际象棋](./KoishiPlugins/Recreation/ichess.md)
 * 游戏辅助
   * [stnb](./KoishiPlugins/Games/stnb.md)
   * [sream-trading](./KoishiPlugins/Games/steam-trading.md)
@@ -61,7 +62,6 @@ sidebar_position: 2
 * [Koishi-wechaty-Bot](./DockerImages/wechaty.md)
 * [Bert-vits2](./DockerImages/bert-vits2.md)
 * [ComfyUI](./DockerImages/ComfyUI.md)
-* [LLOneBot](./DockerImages/LLOneBot)
 ## 教程
 * [tutorial](./tutorial/SUMMARY.md)
 

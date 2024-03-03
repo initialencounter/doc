@@ -2,4 +2,4 @@
 title: docker 镜像的文档
 ---
 
-不住不觉已经做了 7个docker 镜像
+不知不觉已经做了 11个docker 镜像
