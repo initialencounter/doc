@@ -67,6 +67,7 @@ sidebar_position: 2
 * [shamrock](./tutorial/shamrock/README.md)
 * [mysql](./tutorial/mysql/mysql.md)
 * [termux](./tutorial/termux/ZeroTermux.md)
+* [TensorRT](./tutorial/TensorRT-llm/TensorRT-llm-ChatGLM3.md)
 ## 其他
 * [UN_report_parse](./Other/UN-report-parser.md)
 * [gpt-auto-translator](./Other/gpt-auto-translate.md)
