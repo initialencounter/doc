@@ -62,9 +62,11 @@ sidebar_position: 2
 * [Koishi-wechaty-Bot](./DockerImages/wechaty.md)
 * [Bert-vits2](./DockerImages/bert-vits2.md)
 * [ComfyUI](./DockerImages/ComfyUI.md)
-## 教程
-* [tutorial](./tutorial/SUMMARY.md)
-
+## 教程(./tutorial/SUMMARY.md)
+* [chronocat-termux](./tutorial/chronocat-termux/README.md)
+* [shamrock](./tutorial/shamrock/README.md)
+* [mysql](./tutorial/mysql/mysql.md)
+* [termux](./tutorial/termux/ZeroTermux.md)
 ## 其他
 * [UN_report_parse](./Other/UN-report-parser.md)
 * [gpt-auto-translator](./Other/gpt-auto-translate.md)
