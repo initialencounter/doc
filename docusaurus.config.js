@@ -119,7 +119,7 @@ const config = {
             ],
           },
           {
-            title: '友情链接',
+            title: '友链',
             items: [
               {
                 label: '音铃的博客',
