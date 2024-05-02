@@ -11,7 +11,7 @@ title: About Me
     - Minesweeper
     - Write some interesting code
     - Enjoy AI
-    - Joging
+    - Jogging
     - Music
     - Competitive games
 
