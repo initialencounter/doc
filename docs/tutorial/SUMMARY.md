@@ -3,7 +3,6 @@ sidebar_position: 1
 ---
 # 目录
 
-* [首页](./intro.md)
 
 ## Chronocat
 * [在手机上安装超时空猫猫](./chronocat-termux/README.md)

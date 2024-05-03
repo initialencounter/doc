@@ -5,7 +5,7 @@
 《崩坏 星穹铁道》图鉴
 
 
-> 如未启用在线引擎，请在前往 [Nwflower/star-rail-atlas<](https://gitee.com/Nwflower/star-rail-atlas/tree/master/role) 中下载资源文件并解压
+> 如未启用在线引擎，请在前往 [Nwflower/star-rail-atlas](https://gitee.com/Nwflower/star-rail-atlas/tree/master/role) 中下载资源文件并解压
 
 并填写资源文件的路径
 
