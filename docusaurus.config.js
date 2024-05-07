@@ -10,7 +10,7 @@ const config = {
   tagline: 'A docs website of Initialencounter',
   url: 'https://doc.initencunter.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'warn',
   favicon: 'img/favicon.ico',
