@@ -21,19 +21,3 @@
   align-items: center;
   justify-content: center;
 }
-
-/* YourComponent.css */
-.container {
-  position: relative;
-  border-radius: 1rem 1rem 1rem 1rem;
-  /* Other styling */
-}
-
-.top-level-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999; /* 设置一个较大的层级值，确保它在页面顶层 */
-}

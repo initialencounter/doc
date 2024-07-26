@@ -20,7 +20,7 @@ function getAllReadmeFiles(gitDir, destinationPath, ignores) {
         const files = fs.readdirSync(directory);
         for (let file of files) {
             const filePath = path.join(directory, file);
-            if (checkIgnore(filePath, ignores)) {
+            if (checkIgnore(filePath)) {
                 continue
             }
             const stat = fs.statSync(filePath);
@@ -29,7 +29,7 @@ function getAllReadmeFiles(gitDir, destinationPath, ignores) {
                     traverseDirectory(filePath);
                 }
             } else if (file.toLowerCase() === 'readme.md') {
-                let destPath = path.resolve(destinationPath, filePath.replace('..\\mykoishi\\plugins\\', ''))
+                let destPath = path.resolve(destinationPath, filePath.replace('..\\..\\koi\\2022-12-24\\plugins\\', ''))
                 let destinationDir = destPath.replace('\\readme.md', '').replace('\\README.md', '')
                 console.log(destinationDir)
 
@@ -44,4 +44,4 @@ function getAllReadmeFiles(gitDir, destinationPath, ignores) {
     traverseDirectory(gitDir);
 }
 
-getAllReadmeFiles('../mykoishi/plugins', './docs/KoishiPlugins', ["../mykoishi/plugins/Adapter/adapter-kritor"]);
+getAllReadmeFiles('../../koi/2022-12-24/plugins', './docs/KoishiPlugins', []);

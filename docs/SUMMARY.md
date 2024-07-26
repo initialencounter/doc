@@ -15,7 +15,7 @@ sidebar_position: 2
   * [artwise](./KoishiPlugins/AI/arcadia)
 * 适配器
   * [autoxjs-sender](./KoishiPlugins/Adapter/autoxjs-sender)
-  * [wechat4u](./KoishiPlugins/Adapter/wechat4u)
+  * [wechat4u](./KoishiPlugins/Adapter/adapter-wechat4u)
 * 拓展功能
   * [mqtt](./KoishiPlugins/Extension/mqtt)
   * [jimp](./KoishiPlugins/Extension/jimp)
@@ -45,8 +45,6 @@ sidebar_position: 2
 * 游戏辅助
   * [stnb](./KoishiPlugins/Games/stnb)
   * [sream-trading](./KoishiPlugins/Games/steam-trading)
-  * [starrail-gachalog](./KoishiPlugins/Games/starrail-gachalog)
-  * [starrail-atlas](./KoishiPlugins/Games/starrail-atlas)
   * [genshin-atlas](./KoishiPlugins/Games/genshin-atlas)
 ## Nonebot 插件
 * 娱乐玩法
