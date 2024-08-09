@@ -30,12 +30,8 @@
   <summary>点击展开内容！</summary>
 
 #### 2.1.1 下载恢复包
-<<<<<<< HEAD
 
 前往 [Github releases](https://github.com/NapNeko/Termux/releases) 下载 ZeroTermux 恢复包, 并将恢复包放在 手机的 `内部存储/xinhao/data/` 目录
-=======
-前往 [Github releases](https://github.com/NapNeko/NapCat-Termux/releases) 下载 ZeroTermux 恢复包, 并将恢复包放在 手机的 `内部存储/xinhao/data/` 目录
->>>>>>> 059441c9a15eca2cd5fec6f7f38a55017056a8fd
 
 - 注意事项：
   - 恢复包要放在 `内部存储/xinhao/data/`目录或者 `/sdcard/xinhao/data`目录，否则在恢复容器的时候无法找到恢复包
@@ -54,7 +50,6 @@
 
 ### 2.2 使用一键脚本
 
-<<<<<<< HEAD
 ```shell
 bash -c "$(curl -L https://github.com/NapNeko/NapCat-Termux/raw/main/onekey.sh)"
 ```
@@ -65,24 +60,15 @@ bash -c "$(curl -L https://github.com/NapNeko/NapCat-Termux/raw/main/onekey.sh)"
 判断方法输入 `uname -a` ，如果输出信息以 `Android` 结尾，则未进入 proot 容器
 
 ```shell
-# 请先进入容器
-bash bookworm-arm64.sh
-```
-
-=======
-如果你使用了2.1的方法，请不要执行该脚本
-   ```shell
-   bash -c "$(curl -L https://github.com/NapNeko/NapCat-Termux/raw/main/onekey.sh)"
-   ```
-### 3. 启动
-
->>>>>>> 059441c9a15eca2cd5fec6f7f38a55017056a8fd
-```shell
 # 启动
 bash bookworm-arm64.sh
 ```
 
-<<<<<<< HEAD
+```shell
+# 启动
+cd NapCat.linux.arm64 && ./napcat.sh
+```
+
 ### 4. 修改 NapCat 配置
 
 #### 直接修改
@@ -95,8 +81,6 @@ bash bookworm-arm64.sh
 浏览器访问 `http://localhost:6099/webui/login.html`
 token 位于容器内 /root/NapCat.linux.arm64/config/webui.json 目录
 
-=======
->>>>>>> 059441c9a15eca2cd5fec6f7f38a55017056a8fd
 ## 参考与基础
 
 [NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ)
