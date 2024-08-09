@@ -1,5 +1,3 @@
-# cuda12
-
 # software
 
 - cuda12.1
@@ -18,3 +16,4 @@ docker run -e ALL_PASSWD="vncpasswd" -e SSH_PORT=22 -e VNC_PORT=5901 -e JUPYTER_
 - SSH_PORT： ssh端口
 - VNC_PORT：VNC端口
 - JUPYTER_PORT： jupyter端口
+

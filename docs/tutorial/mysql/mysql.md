@@ -4,7 +4,6 @@ authors: initencunter
 tags: [docs, 文档]
 ---
 
-
 :::tip
 mysql
 :::
@@ -13,13 +12,13 @@ mysql
 
 虽然不建议将需要持久化的数据保存在容器中，但是自己平时做个小项目玩玩还是没什么问题的。
 
-## docker部署
+## docker 部署
 
 参考自[Hustocking](https://www.cnblogs.com/hhsk/p/16746208.html)
 
-### 安装docker，网上有很多教程，问chatgpt也可以
+### 安装 docker，网上有很多教程，问 chatgpt 也可以
 
-### 拉取docker镜像
+### 拉取 docker 镜像
 
 ```
 
@@ -45,7 +44,7 @@ docker exec -it mysql01 /bin/bash
 
 ```
 
-#### 登录mysql
+#### 登录 mysql
 
 ```
 
@@ -61,12 +60,12 @@ create database koishi;
 
 ```
 
-## 配置database-mysql
+## 配置 database-mysql
 
-* 停止其他提供数据库服务的插件
+- 停止其他提供数据库服务的插件
 
-- host填写云服务器的公网ip
+* host 填写云服务器的公网 ip
 
-- password填写为我们启动容器时设置的密码123456
+* password 填写为我们启动容器时设置的密码 123456
 
-* 启用database-mysql插件
+- 启用 database-mysql 插件

@@ -5,6 +5,7 @@
 支持使用环境变量配置容器，也可以登录 VNC 配置
 
 配置参考
+
 ```json
 {
   "ob11": {
@@ -29,6 +30,7 @@
   "reportSelfMessage": RSM_ENABLE
 }
 ```
+
 # 示例
 
 11111111 改为你的 selfID
@@ -38,7 +40,6 @@
 ```shell
 docker run -it -d -v ${PWD}/LiteLoader/:/opt/QQ/resources/app/LiteLoader/ -e VNC_PASSWD=vncpasswd -p 8011:5900 -p 8012:6081 -e ACCOUNT=11111111 -e WS_ENABLE=true -e WS_PORT=3001 -p 8013:3001 --name llob initialencounter/liteloader:qq3.2.5-21453_ll1.0.3_ob3.11.0
 ```
-
 
 ## 反向 WS
 

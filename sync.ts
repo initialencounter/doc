@@ -1,12 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 // 获取仓库中所有的README文件
-function getAllReadmeFiles(gitDir, destinationPath, ignores) {
-
+function getAllReadmeFiles(gitDir: string, destinationPath: string, ignores: string[]) {
+    gitDir = path.resolve(gitDir).replace(/\\/g, '/')
+    destinationPath = path.resolve(destinationPath).replace(/\\/g, '/')
     // 遍历目录，查找README文件
-    const readmeFiles = [];
-    function checkIgnore(directory) {
+    function checkIgnore(directory: string) {
         let abDir = path.resolve(directory)
         for (let ignoreDir of ignores) {
             if (abDir === path.resolve(ignoreDir)) {
@@ -16,10 +16,10 @@ function getAllReadmeFiles(gitDir, destinationPath, ignores) {
         }
         return false
     }
-    function traverseDirectory(directory) {
+    function traverseDirectory(directory: string) {
         const files = fs.readdirSync(directory);
         for (let file of files) {
-            const filePath = path.join(directory, file);
+            const filePath = path.join(directory, file).replace(/\\/g, '/');
             if (checkIgnore(filePath)) {
                 continue
             }
@@ -29,15 +29,14 @@ function getAllReadmeFiles(gitDir, destinationPath, ignores) {
                     traverseDirectory(filePath);
                 }
             } else if (file.toLowerCase() === 'readme.md') {
-                let destPath = path.resolve(destinationPath, filePath.replace('..\\..\\koi\\2022-12-24\\plugins\\', ''))
+                let destPath = path.resolve(destinationPath, filePath.replace(gitDir, '').replace('/', ''))
                 let destinationDir = destPath.replace('\\readme.md', '').replace('\\README.md', '')
-                console.log(destinationDir)
 
                 if (!fs.existsSync(destinationDir)) {
                     fs.mkdirSync(destinationDir, { recursive: true });
                 }
-                fs.copyFileSync(path.resolve(filePath), destPath);
-                readmeFiles.push(filePath);
+                console.log(filePath, destPath)
+                fs.copyFileSync(filePath, destPath);
             }
         };
     }
@@ -45,3 +44,14 @@ function getAllReadmeFiles(gitDir, destinationPath, ignores) {
 }
 
 getAllReadmeFiles('../../koi/2022-12-24/plugins', './docs/KoishiPlugins', []);
+getAllReadmeFiles('../../mydocker/', './docs/DockerImages', []);
+fs.copyFileSync('../../koi/koimux_bot/docs/koimux_bot.md', './docs/tutorial/termux/koimux_bot.md')
+fs.copyFileSync('../../others/UN_report_parse/README.md', './docs/Other/UN-report-parser.md')
+fs.copyFileSync('../../others/UN_report_parse/README.md', './docs/Other/UN-report-parser.md')
+fs.copyFileSync('../../QQNT/chronocat-termux/README.md', './docs/tutorial/chronocat-termux/README.md')
+fs.copyFileSync('../../QQNT/llonebot-termux/README.md', './docs/tutorial/termux/llonebot-termux.md')
+fs.copyFileSync('../../QQNT/NapCat-Termux/README.md', './docs/tutorial/termux/NapCat-Termux.md')
+fs.copyFileSync('../../../GolandProjects/src/mines/README.md', './docs/mines/README.md')
+fs.copyFileSync('../../../RustroverProjects/checkList/README.md', './docs/checkList/README.md')
+fs.copyFileSync('../../../RustroverProjects/RainWarm/README.md', './docs/RainWarm/README.md')
+fs.copyFileSync('../../koi/ChatPrompts/README.md', './docs/Other/chat-prompts.md')

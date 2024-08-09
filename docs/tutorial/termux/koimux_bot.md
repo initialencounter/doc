@@ -1,56 +1,59 @@
 # Koimux_bot
 
-## 使用教程
+在手机上部署 Koishi
 
-## 工具
-
-* Android Linux容器--[ZeroTermux](https://od.ixcmstudio.cn/repository/main/ZeroTermux/)
-
-## 一条龙脚本
-包含安装 linux容器, nodejs、koishi,启动 koishi
-注意！！！ 该脚本运行环境是termux
-```shell
-bash -c "$(curl -L https://gitee.com/initencunter/koimux_bot/raw/master/script/install_debian.sh)"
-```
-
-# 下文所有命令只适用于在 proot 容器中运行
-
-[如何安装并进入 proot 容器](./install_debian.md)
-
-### 安装nodejs 
-```bash
-bash -c "$(curl -L https://gitee.com/initencunter/koimux_bot/raw/master/script/install_nodejs.sh)"
-```
-### 安装koishi
+### 安装 koishi
 
 ```bash
-bash -c "$(curl -L https://gitee.com/initencunter/koimux_bot/raw/master/script/install_koishi.sh)"
+bash -c "$(curl -L https://gitee.com/initencunter/koimux_bot/raw/master/script/koishi.sh)"
 ```
 
-### 重装koishi
+### 启动 koishi
+
 ```bash
-bash -c "$(curl -L https://gitee.com/initencunter/koimux_bot/raw/master/script/re_install_koishi.sh)"
+koi start
 ```
 
-### 启动koishi
+### 停止 koishi
+
 ```bash
-bash -c "$(curl -L https://gitee.com/initencunter/koimux_bot/raw/master/script/start_koishi.sh)"
+koi stop
 ```
 
+### 重装 koishi
 
-# 附录
-
-### 安装ffmpeg
-
-发送语言则需要安装该软件
-```shell
-apt update
-apt install ffmpeg -y
+```bash
+koi reset
 ```
-### 安装chromium
 
-部分插件要使用chromium渲染图片
-```shell
-apt update
-apt install chromium -y
+## 附录
+
+### 安装 ffmpeg
+
+发送语音可能需要安装该软件
+
+```bash
+pkg i ffmpeg -y
 ```
+
+### 安装 chromium
+
+部分插件要使用 chromium 渲染图片
+
+```bash
+pkg i x11-repo -y
+pkg rei tur-repo -y
+pkg i chromium -y
+```
+
+### 我全都要
+
+```bash
+bash -c "$(curl -L https://gitee.com/initencunter/koimux_bot/raw/master/script/full.sh)"
+```
+
+## 参考与基础
+
+[koishi](https://github.com/koishijs/koishi)
+
+[ZeroTermux](https://od.ixcmstudio.cn/repository/main/ZeroTermux/)

@@ -1,5 +1,5 @@
 ---
-title: Andorid ffmpeg 解决方案
+title: Android ffmpeg 解决方案
 authors: initencunter
 tags: [docs, 教程]
 ---

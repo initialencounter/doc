@@ -1,13 +1,12 @@
 # 翻译插件
 
 ## 视频演示
+
 [![YouTube视频封面](https://img.youtube.com/vi/gyirDtuC_mw/0.jpg)](https://youtu.be/gyirDtuC_mw)
 
+## 1. 安装 python 依赖
 
-
-## 1. 安装python依赖
-
-打开server目录，按住shift+鼠标右键，打开终端或powershell。
+打开 server 目录，按住 shift+鼠标右键，打开终端或 powershell。
 
 ![](../assets/gpt-auto-translate/1.png)
 
@@ -19,7 +18,7 @@
 
 ![](../assets/gpt-auto-translate/3.png)
 
-## 2. 安装tesseract
+## 2. 安装 tesseract
 
 双击安装包。
 
@@ -47,7 +46,7 @@
 
 ![](../assets/gpt-auto-translate/13.png)
 
-配置tesseract环境，打开高级系统设置。
+配置 tesseract 环境，打开高级系统设置。
 
 ![](../assets/gpt-auto-translate/14.png)
 
@@ -55,7 +54,7 @@
 
 ![](../assets/gpt-auto-translate/16.png)
 
-点击新建，填入刚才tesseract的安装目录。
+点击新建，填入刚才 tesseract 的安装目录。
 
 ![](../assets/gpt-auto-translate/17.png)
 
@@ -73,7 +72,7 @@
 
 ![](../assets/gpt-auto-translate/21.png)
 
-启动python后端服务。
+启动 python 后端服务。
 
 ![](../assets/gpt-auto-translate/22.png)
 
@@ -81,7 +80,7 @@
 
 ![](../assets/gpt-auto-translate/23.png)
 
-如果已经存在translate插件，要先移除。
+如果已经存在 translate 插件，要先移除。
 
 ![](../assets/gpt-auto-translate/24.png)
 
@@ -90,4 +89,3 @@
 ![](../assets/gpt-auto-translate/26.png)
 
 ## 4.
-

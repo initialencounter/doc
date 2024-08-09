@@ -2,10 +2,8 @@
 
 带有 [anythingv5](https://civitai.com/models/103902/anything-v5-inpainting) 模型的 ComfyUI
 
-
 [dockrhub](https://hub.docker.com/repository/docker/initialencounter/comfyui)
 [git](https://github.com/initialencounter/ComfyUI)
-
 
 # 启动方法
 

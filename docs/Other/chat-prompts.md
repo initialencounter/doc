@@ -1,4 +1,4 @@
-# ChatGPT 预设
+# @initencounter/chat-prompts 
 
 [![npm](https://img.shields.io/npm/v/@initencounter/chat-prompts?style=flat-square)](https://www.npmjs.com/package/@initencounter/chat-prompts)
 
