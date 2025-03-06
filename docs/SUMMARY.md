@@ -14,6 +14,10 @@ sidebar_position: 2
   - [sd-taylor](./KoishiPlugins/AI/sd-taylor)
   - [arcadia](./KoishiPlugins/AI/arcadia)
   - [artwise](./KoishiPlugins/AI/arcadia)
+  - [anti-nsfw](./KoishiPlugins/AI/anti-nsfw)
+  - [florence](./KoishiPlugins/AI/florence)
+  - [transformers](./KoishiPlugins/AI/transformers)
+  - [embedsort](./KoishiPlugins/AI/embedsort)
 - 适配器
   - [autoxjs-sender](./KoishiPlugins/Adapter/autoxjs-sender)
   - [wechat4u](./KoishiPlugins/Adapter/adapter-wechat4u)
@@ -79,3 +83,5 @@ sidebar_position: 2
 - [UN_report_parse](./Other/UN-report-parser.md)
 - [gpt-auto-translator](./Other/gpt-auto-translate.md)
 - [chat-prompt](./Other/chat-prompts.md)
+- [RainWarm](./RainWarm)
+- [flextrek](./flextrek)

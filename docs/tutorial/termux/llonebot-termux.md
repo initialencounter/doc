@@ -18,10 +18,9 @@
 - 4. 远程
 - 5. 修改 LLOneBot 配置
 
-## 1. 安装 ZeroTermux 和 VncView
+## 1. 安装 ZeroTermux
 
 前往[hanxinhao000/ZeroTermux](https://github.com/hanxinhao000/ZeroTermux/releases)下载 ZeroTermux 安装包并安装
-安装一个 vnc 客户端，推荐 [RealVNC](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
 
 - 注意事项：
   直接从 GitHub 下载 ZeroTermux 速度可能会很慢，建议使用 [ghproxy.com](https://ghproxy.com) 代理
@@ -77,13 +76,13 @@ bash bookworm-arm64.sh
 bash /root/start.sh
 ```
 
-### 4. 远程登录
+### 4. 登录
 
-浏览器访问`http://localhost:6099/api/panel/getQQLoginQRcode`
+双指缩放终端，扫码登录
 
 ### 5. 修改 LLOneBot 配置
 
-浏览器访问`http://localhost:6099/plugin/LLOneBot/iframe.html`
+修改proot容器 `/LiteLoader/plugins/LLOneBot` 内的配置文件
 
 ## 参考与基础
 
